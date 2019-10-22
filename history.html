@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!--CSS-->
+  <link href="style_index.css" rel="stylesheet">
+  
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css?family=Pridi&display=swap" rel="stylesheet">
+
+  <title>เกาะกาลาปากอส</title>
+
+</head>
+<style>
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+</style>
+<body>
+  
+  <ul>
+    <li><a href="index.html">เกาะกาลาปากอส</a></li>
+    <li><a href="history.html">ประวัติของเกาะกาลาปากอส</a></li>
+    <li><a href="land.html">ลักษณะทางภูมิศาสตร์</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">สัตว์ต่างๆ</a>
+      <div class="dropdown-content">
+        <a href="page1.html">นกบูบีตีนฟ้า</a>
+        <a href="page2.html">นกโจรสลัดแม็กนิฟิเชี่ยน</a>
+        <a href="page3.html">นกบูบีตีนแดง</a>
+        <a href="page4.html">Link4</a>
+        <a href="page5.html">สิงโตทะเลกาลาปาโกส</a>
+        <a href="page6.html">เต่ากาลาปาโกส</a>
+        <a href="page7.html">อิกัวนาทะเล</a>
+        <a href="page8.html">Link 8</a>
+        <a href="page9.html">Link 9</a>
+        <a href="page10.html">Link 10</a>
+      </div>
+    </li>
+    <li><a href="about.html">about us</a></li>
+  </ul>
+
+  <h1 style="text-align: center;">ประวัติของหมู่เกาะกาลากากอส</h1>
+  <div class="hvrbox">
+    <img style="margin-left: 5%;" src="g1.jpg" alt="bluebooby" class="hvrbox-layer_bottom">
+  </div>
+  <p style="margin-left: 5%; margin-right: 5%;">ตามประวัติกล่าวว่าผู้มาแวะที่หมู่เกาะนี้เป็นครั้งแรก คือกะลาสีเรือของชาววัฒนธรรมชิมู (Chimu) จากเปรูตอนเหนือ เมื่อปี พ.ศ. 2028 (ค.ศ. 1485) แต่จากบันทึกอย่างเป็นลายลักษณ์อักษร ถือว่าบุคคลแรกที่กล่าวถึงหมู่เกาะนี้ก็คือ บิชอปแห่งปานามา มาถึงเมื่อวันที่ 10 มีนาคม พ.ศ. 2078 (ค.ศ. 1535) อีกไม่นานต่อมา คือใน พ.ศ. 2113 (ค.ศ. 1570) หมู่เกาะกาลาปาโกสก็ปรากฏในแผนที่โลกเป็นครั้งแรก
+วันที่ 15 กันยายน พ.ศ. 2378 ชาลส์ ดาร์วิน ได้เดินทางมาแวะที่หมู่เกาะกาลาปาโกส โดยพักอยู่ในหมู่เกาะนี้ 5 สัปดาห์ ดาร์วินได้เดินทางมากับเรือบีเกิล (Beagle) แวะที่เกาะใหญ่ 4 เกาะ คือเกาะแชแทม เกาะชาลส์ เกาะอัลเบอร์มาร์ล และเกาะเจมส์ โดยใช้เวลา 19 วันในการเก็บสะสมตัวอย่าง และสังเกตลักษณะทางพฤกษศาสตร์และสัตววิทยาของที่นี่ ดาร์วินเรียกหมู่เกาะแห่งนี้ว่า "ห้องปฏิบัติการวิวัฒนาการที่มีชีวิต" (living laboratory of evolution) ความหลากหลายและแตกต่างของสิ่งมีชีวิตในหมู่เกาะนี้ ทำให้ดาร์วินได้ความคิดเรื่องการคัดเลือกพันธุ์โดยธรรมชาติและทฤษฎีวิวัฒนาการ และเมื่อชาลส์ ดาร์วินได้ตีพิมพ์หนังสือ กำเนิดพงศ์พันธุ์ (The Origin of Species หรือชื่อเต็มว่า the Origin of Species by Means of Natural Selection) ในปี พ.ศ. 2402 (ค.ศ. 1859) ผู้คนก็รู้จักหมู่เกาะกาลาปาโกสกันมากขึ้น
+
+</body>
+</html>
