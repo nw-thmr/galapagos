@@ -13,7 +13,67 @@
   <link href="https://fonts.googleapis.com/css?family=Pridi&display=swap" rel="stylesheet">
 
   <title>เกาะกาลาปากอส</title>
-
+  <style>
+    .hvrbox * {
+      box-sizing: border-box;
+    }
+    .hvrbox {
+      position: relative;
+      overflow: hidden;
+      max-width: 100%;
+      height: auto;
+    }
+    .hvrbox img {
+      max-width: 100%;
+    }
+    .hvrbox .hvrbox-layer_bottom {
+      display: block;
+    }
+    .hvrbox .hvrbox-layer_top {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 15px;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -ms-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+    }
+    .hvrbox:hover .hvrbox-layer_top,
+    .hvrbox.active .hvrbox-layer_top {
+      opacity: 1;
+    }
+    .hvrbox .hvrbox-text {
+      text-align: center;
+      font-size: 18px;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    .hvrbox .hvrbox-text_mobile {
+      font-size: 15px;
+      border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+      border-top: 1px solid rgba(179, 179, 179, 0.7);
+      margin-top: 5px;
+      padding-top: 2px;
+      display: none;
+    }
+    .hvrbox.active .hvrbox-text_mobile {
+      display: block;
+    }
+    </style>
 </head>
 
 <body>
@@ -39,7 +99,7 @@
   </ul>
   <h1 style="text-align: center;">นกกาน้ำกาลาปากอส (Galápagos flightless cormorant)</h1>
   <div class="hvrbox">
-    <img style="margin-left: 27%;" src="m1.jpg" alt="bluebooby" class="hvrbox-layer_bottom">
+    <img style="margin-left: 27%;" src="f10.jpg" alt="bluebooby" class="hvrbox-layer_bottom">
     <div class="hvrbox-layer_top">
       <div class="hvrbox-text">flightless cormorant<br>
         kingdom: Animalia<br>
@@ -48,7 +108,7 @@
         order: Suliformes<br>
         family: Phalacrocoracidae<br>
         genus: 	Phalacrocorax<br>
-        species: 	P. harrisi<br>
+        species:	P. harrisi<br>
       </div>
     </div>
   </div>
