@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='./slidestyle.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>เกาะกาลาปากอส</title>
+
+</head>
+<body>
+  <main>
+    <div class="vertical-slider">
+      <div class="slide vertical-slide">
+        <div class="slide-content">
+         <h1> เกาะกาลาปากอส </h1>
+        </div>
+      </div>
+      <div class="slide vertical-slide">
+        <div class="slide-content">
+          <h1>เเผนที่จำลองเกาะกาลาปากอส</h1>
+          <center><img src="map.png" alt="Galamap" class="img-round-large" style="width:40%; height: 100%"></center>
+        </div>
+      </div>
+      <div class="slide vertical-slide">
+        <div class="slide-content">
+          <h1>ประวัติของเกาะกาลาปากอส</h1>
+        </div>
+      </div>
+      <div class="slide vertical-slide">
+        <div class="slide-content">
+          <h1>ลักษณะทางภูมิศาสตร์</h1>
+        </div>
+      </div>
+      <div class="slide vertical-slide">
+        <div class="slide-content">
+            <h1>ชนิดของสัตว์ในเกาะกาลาปากอส</h1>
+          </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+  <script>
+    (function($) {
+      $(function() {
+        /* เปิดปิดการใช้งานปุ่มเลื่อนหน้าจอ */
+        $('.horizontal-slider').slick({
+          arrows: true,
+          dots: true,
+          infinite: true,
+        });
+
+        $('.vertical-slider').slick({
+          arrows: false,
+          dots: true,
+          edgeFriction: .5,
+          infinite: false,
+          vertical: true,
+          verticalSwiping: true,
+        });
+        /* สิ้นสุดแท็กเปิดปิดการใช้งานปุ่มเลื่อนหน้าจอ */
+        
+        $('.vertical-slider').mousewheel(function(e) {
+          if (e.deltaY < 0) {
+            if($(this).slick('slickCurrentSlide') == $(this).find('.slide').length - 1) {
+              return
+            }
+
+            e.preventDefault()
+            $(this).slick('slickNext')
+          } else {
+            if($(this).slick('slickCurrentSlide') == 0) {
+              return
+            }
+
+            e.preventDefault()
+            $(this).slick('slickPrev')
+          }
+        });
+      });
+    }(jQuery));
+  </script>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
