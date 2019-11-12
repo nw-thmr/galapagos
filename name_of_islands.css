@@ -28,121 +28,122 @@
   visibility: visible;
 }
 
+
 .isbella {
   position: absolute;
-  top: 20cm;
-  left: 12cm;
+  top: 77%;
+  left: 25%;
   font-size: 30px;
 }
 
 .fernandina {
   position: absolute;
-  top: 14cm;
-  left: 5.5cm;
-  font-size: 30px;
+  top: 53%;
+  left: 7%;
+  font-size: 25px;
 }
 
 .floreana {
   position: absolute;
-  top: 20cm;
-  left: 25.5cm;
-  font-size: 30px;
+  top: 89%;
+  left: 50%;
+  font-size: 25px;
 }
 
 .espanola {
   position: absolute;
-  top: 21.5cm;
-  left: 39.5cm;
-  font-size: 30px;
+  top: 87%;
+  left: 78%;
+  font-size: 25px;
 }
 
 .santacruz {
   position: absolute;
-  top: 17cm;
-  left: 27cm;
-  font-size: 30px;
+  top: 65%;
+  left: 49%;
+  font-size: 25px;
 }
 
 .wolf {
   position: absolute;
-  top: 5.5cm;
-  left: 5cm;
-  font-size: 15px;
+  top: 20%;
+  left: 14.5%;
+  font-size: 20px;
 }
 
 .marchena{
   position: absolute;
-  top: 5.5cm;
-  left: 25cm;
-  font-size: 20px;
+  top: 18%;
+  left: 52%;
+  font-size: 18px;
 }
 
 .genovesa{
   position: absolute;
-  top: 5.5cm;
-  left: 34.7cm;
-  font-size: 15px;
+  top: 23%;
+  left: 63%;
+  font-size: 18px;
 }
 
 .pinta{
   position: absolute;
-  top: 2.5cm;
-  left: 20.2cm;
-  font-size: 20px;
+  top: 6%;
+  left: 40%;
+  font-size: 18px;
 }
 
 .santiago{
   position: absolute;
-  top: 8.5cm;
-  left: 20.5cm;
-  font-size: 30px;
+  top: 36%;
+  left: 40%;
+  font-size: 25px;
 }
 
 .rabida{
   position: absolute;
-  top: 13cm;
-  left: 21.5cm;
+  top: 51.5%;
+  left: 42%;
   font-size: 15px;
 }
 
 .pinzon{
   position: absolute;
-  top: 15cm;
-  left: 22cm;
-  font-size: 20px;
+  top: 60%;
+  left: 43.5%;
+  font-size: 15px;
 }
 
 .bartholomew{
   position: absolute;
-  top: 10.5cm;
-  left: 25cm;
+  top: 43.5%;
+  left: 49%;
   font-size: 15px;
 }
 
 .northseymour{
   position: absolute;
-  top: 11.5cm;
-  left: 29cm;
+  top: 48%;
+  left: 56%;
   font-size: 15px;
 }
 
 .santafe{
   position: absolute;
-  top:  17.5cm;
-  left: 32.5cm;
-  font-size: 30px;
+  top: 68%;
+  left: 63%;
+  font-size: 20px;
 }
 
 .sancristobal{
   position: absolute;
-  top: 18.5cm;
-  left: 42cm;
-  font-size: 30px;
+  top: 70%;
+  left: 85%;
+  font-size: 22px;
 }
 
 .darwin{
   position: absolute;
-  top: 10%;
-  left: 10%;
-  font-size: 20px;
+  top: 3%;
+  left: 7%;
+  font-size: 22px;
 }
