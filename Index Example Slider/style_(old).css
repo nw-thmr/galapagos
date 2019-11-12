@@ -1,0 +1,148 @@
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: greenyellow;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.isbella {
+  position: absolute;
+  top: 20cm;
+  left: 12cm;
+  font-size: 30px;
+}
+
+.fernandina {
+  position: absolute;
+  top: 14cm;
+  left: 5.5cm;
+  font-size: 30px;
+}
+
+.floreana {
+  position: absolute;
+  top: 20cm;
+  left: 25.5cm;
+  font-size: 30px;
+}
+
+.espanola {
+  position: absolute;
+  top: 21.5cm;
+  left: 39.5cm;
+  font-size: 30px;
+}
+
+.santacruz {
+  position: absolute;
+  top: 17cm;
+  left: 27cm;
+  font-size: 30px;
+}
+
+.wolf {
+  position: absolute;
+  top: 5.5cm;
+  left: 5cm;
+  font-size: 15px;
+}
+
+.marchena{
+  position: absolute;
+  top: 5.5cm;
+  left: 25cm;
+  font-size: 20px;
+}
+
+.genovesa{
+  position: absolute;
+  top: 5.5cm;
+  left: 34.7cm;
+  font-size: 15px;
+}
+
+.pinta{
+  position: absolute;
+  top: 2.5cm;
+  left: 20.2cm;
+  font-size: 20px;
+}
+
+.santiago{
+  position: absolute;
+  top: 8.5cm;
+  left: 20.5cm;
+  font-size: 30px;
+}
+
+.rabida{
+  position: absolute;
+  top: 13cm;
+  left: 21.5cm;
+  font-size: 15px;
+}
+
+.pinzon{
+  position: absolute;
+  top: 15cm;
+  left: 22cm;
+  font-size: 20px;
+}
+
+.bartholomew{
+  position: absolute;
+  top: 10.5cm;
+  left: 25cm;
+  font-size: 15px;
+}
+
+.northseymour{
+  position: absolute;
+  top: 11.5cm;
+  left: 29cm;
+  font-size: 15px;
+}
+
+.santafe{
+  position: absolute;
+  top:  17.5cm;
+  left: 32.5cm;
+  font-size: 30px;
+}
+
+.sancristobal{
+  position: absolute;
+  top: 18.5cm;
+  left: 42cm;
+  font-size: 30px;
+}
+
+.darwin{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 20px;
+}
