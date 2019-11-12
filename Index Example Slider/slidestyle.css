@@ -106,10 +106,10 @@
 .slick-dots li button:focus:before,
 .slick-dots li button:hover:before {opacity:1}
 
-/* รูปดอท content: url(image/dot.png); */
+/* รูปดอท content: url(resources/dot.png); */
 .slick-dots li button:before {
     font-size:6px;line-height:20px;position:absolute;
-    top:0;left:0;width:20px;height:20px;content: "O";
+    top:0;left:0;width:20px;height:20px;content: "⚪";
     text-align:center;opacity:.25;color:#000
 }
 /* รูปดอท */

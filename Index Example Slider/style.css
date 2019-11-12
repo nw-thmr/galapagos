@@ -4,6 +4,7 @@ html {
   margin: 0;
   padding: 0;
   color: inherit;
+  min-width: 1024px;
 }
 
 h1 {
@@ -64,7 +65,10 @@ h1 {
    use border to close gap between slide  */
 .vertical-slide:nth-child(1n) {
   background: url("image/background.png");
-  background-size: 1540px 820px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-position-x: center;*/
+  background-position-y: bottom;
   border: 6px solid #4cd2ff;
   background-color: #4cd2ff ;
 }
