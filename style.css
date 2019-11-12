@@ -15,6 +15,13 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: 'Itim', cursive;
+  color: inherit;
+  display: block;
+  text-align: center;
+}
+
 .horizontal-slider.slick-dotted,
 .vertical-slider.slick-dotted {
   margin-bottom: 0;
@@ -83,7 +90,6 @@ h1 {
 .vertical-slide:nth-child(4n) {
   background: url("");
   background-color: #4cd2ff;
-  background-size: 100%;
 }
 
 .vertical-slide:nth-child(5n) {

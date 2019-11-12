@@ -1,17 +1,21 @@
-/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
-::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
-/* End extract */
-html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+.w3-image {
+    max-width:100%;
+    height:auto
+}img{vertical-align:middle}a{color:inherit}
 
-.w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
-.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
-.w3-container,.w3-panel{display: inline-block; padding:0.01em 16px}
-.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-container,.w3-panel {
+    display: inline-block; 
+    padding:0.01em 16px; 
+    background-color:white;
+    background-size: 100%;
+}
 
-/* การ์ดและเงา */
+.w3-panel {
+    margin-top:16px;
+    margin-bottom:16px
+}
+
+/* การ์ด but no เงา */
 .w3-card,.w3-card-2{display: inline-block; box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+/* การ์ดและเงา */
 .w3-card-4,.w3-hover-shadow:hover{display: inline-block; box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
-/* สิ้นสุดการ์ดและเงา */
