@@ -3,163 +3,236 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='../slidestyle.css'>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../Portraitstyle.css">
+  <link rel="stylesheet" href="../name_of_islands.css">
+  <style>
+    div.ex1 {
+      position: relative;
+      width: 100vmin;
+      margin: auto;
+    }
 
-  <!--CSS-->
-  <link href="/style_index.css" rel="stylesheet">
+    .vertical-slide:nth-child(1n) {
+      background: url("../images/transparent/crab.png");
+      background-size: 70%;
+      background-repeat: no-repeat;
+      /*background-position-x: center;*/
+      background-position-y: bottom;
+      border: 0px solid #4cd2ff;
+      background-color: #4cd2ff;
+    }
 
-  <!--Font-->
-  <link href="https://fonts.googleapis.com/css?family=Pridi&display=swap" rel="stylesheet">
+    .vertical-slide:nth-child(2n) {
+      background: url("");
+      background-color: #4cd2ff;
+    }
 
-  <title>เกาะกาลาปากอส</title>
+    .vertical-slide:nth-child(3n) {
+      background: url("");
+      background-color: #4cd2ff;
+    }
+  </style>
 
 </head>
-<style>
-  .hvrbox * {
-    box-sizing: border-box;
-  }
-
-  .hvrbox {
-    position: relative;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .hvrbox img {
-    max-width: 100%;
-  }
-
-  .hvrbox .hvrbox-layer_bottom {
-    display: block;
-  }
-
-  .hvrbox .hvrbox-layer_top {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    padding: 15px;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -ms-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
-  }
-
-  .hvrbox:hover .hvrbox-layer_top,
-  .hvrbox.active .hvrbox-layer_top {
-    opacity: 1;
-  }
-
-  .hvrbox .hvrbox-text {
-    text-align: center;
-    font-size: 18px;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
-  .hvrbox .hvrbox-text_mobile {
-    font-size: 15px;
-    border-top: 1px solid rgb(179, 179, 179);
-    /* for old browsers */
-    border-top: 1px solid rgba(179, 179, 179, 0.7);
-    margin-top: 5px;
-    padding-top: 2px;
-    display: none;
-  }
-
-  .hvrbox.active .hvrbox-text_mobile {
-    display: block;
-  }
-
-  table.a {
-    table-layout: auto;
-    width: 1200px;
-  }
-
-  th {
-    padding: 0 30px 0 0;
-  }
-</style>
 
 <body>
+  <!-- partial:index.partial.html -->
+  <html lang="en">
 
-  <ul>
-		<li><a href="/index.html">เกาะกาลาปากอส</a></li>
-		<li><a href="history.html">ประวัติของเกาะกาลาปากอส</a></li>
-		<li><a href="land.html">ลักษณะทางภูมิศาสตร์</a></li>
-		<li class="dropdown">
-			<a href="javascript:void(0)" class="dropbtn">สัตว์ต่างๆ</a>
-			<div class="dropdown-content">
-				<a href="bird-bluebooby.html">นกบูบีตีนฟ้า</a>
-				<a href="bird-magnificent.html">นกโจรสลัดแม็กนิฟิเชี่ยน</a>
-				<a href="bird-redbooby.html">นกบูบีตีนแดง</a>
-				<a href="penguin.html">เพนกวินกาลาปากอส</a>
-				<a href="sealion.html">สิงโตทะเลกาลาปาโกส</a>
-				<a href="tortoise.html">เต่ากาลาปาโกส</a>
-				<a href="iguana.html">อิกัวนาทะเล</a>
-				<a href="crab.html">ปูหินแดงกราปซัส</a>
-				<a href="finches.html">นกฟินช์</a>
-				<a href="cormorant.html">นกกาน้ำกาลาปากอส</a>
-			</div>
-		</li>
-		<li><a href="about.html">about us</a></li>
-		</li>
-	</ul>
+  <head>
+    <meta charset="UTF-8">
+    <title>เกาะกาลาปากอส</title>
 
-  <h1 style="text-align: center;">ปูหินแดงกราปซัส (Sally Lightfoot Crab )</h1>
-  <div class="hvrbox">
-    <img style="margin-left: 34%;" src="/images/l3.jpg" alt="crab" height="400" width="420" class="hvrbox-layer_bottom">
-    <div class="hvrbox-layer_top">
-      <div class="hvrbox-text">Grapsus grapsus<br>
-        kingdom: Animalia<br>
-        phylum: Arthropoda<br>
-        class: Malacostraca<br>
-        Order: Decapoda<br>
-        Family: Grapsidae<br>
-        genus: Grapsus<br>
-        species: G. grapsus<br>
+  </head>
+
+  <body>
+    <main>
+      <div class="vertical-slider">
+        <div class="slide vertical-slide">
+          <div class="slide-content">
+            <h1 style="font-size: 500%; color: white; text-align: right; position: static; top: -5cm; right: -3cm;">
+              ปูแซลลี่ย์ไลท์ฟุต </h1>
+            <div
+              style="font-size: 150%; color: white; text-align: right; position: absolute; top: 100px; right: 250px;">
+              <p>Binomial name: Grapsus grapsuss</p>
+              <p>Kingdom: Animalia</p>
+              <p>Phylum: Arthropoda</p>
+              <p>Class: Malacostrac</p>
+              <p>Order: Decapoda</p>
+              <p>Family: Grapsidae</p>
+              <p>Genus: Grapsus</p>
+              <p>Species: G. grapsus</p>
+              <img src="../images/Resources/scrolldown.gif" alt="Scoll Down" style="position: relative; width: 100px;">
+            </div>
+          </div>
+        </div>
+        <div class="slide vertical-slide">
+          <div class="slide-content">
+            <h1>นกฟินช์</h1>
+            <img src="../images/crab.jpg" alt="darwin"
+              style=" display: block; margin-left: auto; margin-right: auto; width: 20%;">
+            <h3 style="margin-left: 5%; margin-right: 5%;">ปูหินสีแดง หรือ ปูกราปซัส (อังกฤษ: red rock crab, abuete
+              negro; ชื่อวิทยาศาสตร์: Grapsus grapsus)
+              เป็นปูชนิดหนึ่งที่อยู่ในวงศ์สัตว์ไม่มีกระดูกสันหลังหรือสัตว์ขาปล้อง (Arthropoda)
+              เป็นปูที่มีสีสันสะดุดตาโทนสีส้มไล่สีไปยังน้ำตาลจนถึงสีดำ บางตัวก็มีโทนสีเหลือง ขาว และ น้ำเงิน
+              หรือบางตัวอาจจะมีทั้งสามสีรวมกันเลยก็ได้
+              ปูหินสีแดงเหล่านี้มีลำตัวยาวประมาณ 3-5 นิ้ว(8-12 เซนติเมตร) น้ำหนักประมาณครึ่งปอนด์ (0.45 กิโลกรัม)
+              ปูหินสีแดงในวัยเด็กจะมีลำตัวเป็นสีดำหรือสีน้ำตาลเข้มเพื่อที่จะสามารถซ่อนตัวตามหินลาวาสีดำเพื่อหลบหลีกจากผู้ล่า
+              แต่เมื่อมันเข้าถึงช่วงตัวเต็มวัยสีของมันจะหายไปกลายเป็นสีสดใส เพราะมันไม่จำเป็นต้องหลบจากผู้ล่า
+              เนื่องจากมันมีความไวมากมันจึงเก่งพอทีจะ
+              วิ่งหนีผู้ล่าได้เกือบแทบทุกชนิด ด้วยความสามารถในการวิ่ง การกระโดด
+              หรือแม้แต่การกระโจนตระครุบก็ยังทำได้จึงเป็นไปไม่ได้เลยที่จะจับมันบนบก
+              เจ้าปูหินสีแดงนี้ยังสามารถวิ่งได้ทั้งถึงสี่ทิศรอบตัว ชีวิตประจำวันของพวกมันคือ
+              พวกมันเป็นนักเก็บซากแห่งเกาะกาลาปากอสโดยพวกมันจะคอยกินเศษอาหาร,สาหร่าย,หรือสัตว์ที่ตายแล้ว
+              ทำให้มันเป็นส่วนหนึ่งของระบบนิเวศที่คอยทำให้ชายฝั่งสะอาดอยู่เสมอ
+              ส่วนมากพวกมันจะชอบขึ้นมายืนอาบแดดอยู่บนหินตามชายฝั่งโดดไปมาระหว่างหิน
+              ชาวประมงเล่าว่าปูหินสีแดงนี้กินแทบจะไม่ได้เลยเพราะเนื้อมันน้อยส่วนมากจึงถูกจับนำมาเป็นเหยื่อล่าปลาไหลมอเรล
+            </h3>
+          </div>
+        </div>
+
+        <!--ชนิดของสัตว์-->
+        <div class="slide vertical-slide">
+          <div class="slide-content">
+            <h2>ชนิดของสัตว์ในเกาะกาลาปากอส</h2>
+            <!--1-->
+            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            &ensp;&ensp;&ensp;&ensp;&ensp;
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/finch-for-portrait.jpg" alt="finch" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="page/finches.html">Finch Dawin</a></b></h4>
+                <p>นกตัวที่ 1</p>
+              </div>
+            </div>&ensp;
+            <!--2-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/crap-for-portrait.jpg" alt="crapsus" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="url">Grapsus Crapsus</a></b></h4>
+                <p>ปูตัวที่ 1</p>
+              </div>
+            </div>&ensp;
+            <!--3-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/iguana-for-portrait.jpg" alt="iguana" style="width:100%;">
+              <div class="w3-container">
+                <h4><b><a href="url">Marine Iguana</a></b></h4>
+                <p>อิกัวน่าตัวที่ 1</p>
+              </div>
+            </div>&ensp;
+            <!--4-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/penguin-for-portrait.jpg" alt="penguin" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="url">Galápagos Penguin</a></b></h4>
+                <p>เพนกวินตัวที่ 1</p>
+              </div>
+            </div>&ensp;
+            <!--5-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/tortoise-for-portrait.jpg" alt="tortoise" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="url">Galápagos Tortoise</a></b></h4>
+                <p>เต่าตัวที่ 1</p>
+              </div>
+            </div>
+            &ensp;<br><br>
+            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            &ensp;&ensp;&ensp;&ensp;&ensp;
+            <!--6-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/bluebooby-for-portrait.jpg" alt="bluebooby" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="url">Bluebooby</a></b></h4>
+                <p>นกตัวที่ 2</p>
+              </div>
+            </div>&ensp;
+            <!--7-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/Magnificent-for-portrait.jpg" alt="Magnificent" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="url">Magnificent Frigatebird</a></b></h4>
+                <p>นกตัวที่ 3</p>
+              </div>
+            </div>&ensp;
+            <!--8-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/booby-for-portrait.jpg" alt="redfoot" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="url">Red-Footed Booby</a></b></h4>
+                <p>นกตัวที่ 4</p>
+              </div>
+            </div>&ensp;
+            <!--9-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/cormorant-for-portrait.jpg" alt="cormorant" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="url">Flightless Cormorant</a></b></h4>
+                <p>นกตัวที่ 5</p>
+              </div>
+            </div>&ensp;
+            <!--10-->
+            <div class="w3-card-4" style="width:15%">
+              <img src="../Portrait-img/sealion-for-portrait.jpg" alt="sealion" style="width:100%">
+              <div class="w3-container">
+                <h4><b><a href="url">Galápagos Sea Lion</a></b></h4>
+                <p>แมวน้ำตัวที่ 1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
-  </div>
-  <p style="margin-left: 10%; margin-right: 10%;">
-    ปูหินสีแดง หรือ ปูกราปซัส (อังกฤษ: red rock crab, abuete negro; ชื่อวิทยาศาสตร์: Grapsus grapsus)
-    เป็นปูชนิดหนึ่งที่อยู่ในวงศ์สัตว์ไม่มีกระดูกสันหลังหรือสัตว์ขาปล้อง (Arthropoda)
-    เป็นปูที่มีสีสันสะดุดตาโทนสีส้มไล่สีไปยังน้ำตาลจนถึงสีดำ บางตัวก็มีโทนสีเหลือง ขาว และ น้ำเงิน
-    หรือบางตัวอาจจะมีทั้งสามสีรวมกันเลยก็ได้
-    ปูหินสีแดงเหล่านี้มีลำตัวยาวประมาณ 3-5 นิ้ว(8-12 เซนติเมตร) น้ำหนักประมาณครึ่งปอนด์ (0.45 กิโลกรัม)
-    ปูหินสีแดงในวัยเด็กจะมีลำตัวเป็นสีดำหรือสีน้ำตาลเข้มเพื่อที่จะสามารถซ่อนตัวตามหินลาวาสีดำเพื่อหลบหลีกจากผู้ล่า
-    แต่เมื่อมันเข้าถึงช่วงตัวเต็มวัยสีของมันจะหายไปกลายเป็นสีสดใส เพราะมันไม่จำเป็นต้องหลบจากผู้ล่า
-    เนื่องจากมันมีความไวมากมันจึงเก่งพอทีจะ
-    วิ่งหนีผู้ล่าได้เกือบแทบทุกชนิด ด้วยความสามารถในการวิ่ง การกระโดด
-    หรือแม้แต่การกระโจนตระครุบก็ยังทำได้จึงเป็นไปไม่ได้เลยที่จะจับมันบนบก
-    เจ้าปูหินสีแดงนี้ยังสามารถวิ่งได้ทั้งถึงสี่ทิศรอบตัว ชีวิตประจำวันของพวกมันคือ
-    พวกมันเป็นนักเก็บซากแห่งเกาะกาลาปากอสโดยพวกมันจะคอยกินเศษอาหาร,สาหร่าย,หรือสัตว์ที่ตายแล้ว
-    ทำให้มันเป็นส่วนหนึ่งของระบบนิเวศที่คอยทำให้ชายฝั่งสะอาดอยู่เสมอ
-    ส่วนมากพวกมันจะชอบขึ้นมายืนอาบแดดอยู่บนหินตามชายฝั่งโดดไปมาระหว่างหิน
-    ชาวประมงเล่าว่าปูหินสีแดงนี้กินแทบจะไม่ได้เลยเพราะเนื้อมันน้อยส่วนมากจึงถูกจับนำมาเป็นเหยื่อล่าปลาไหลมอเรล
-  </p>
+    </main>
 
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script>
+      (function ($) {
+        $(function () {
+          /* เปิดปิดการใช้งานปุ่มเลื่อนหน้าจอ */
+          $('.horizontal-slider').slick({
+            arrows: true,
+            dots: true,
+            infinite: true,
+          });
 
-</html>
+          $('.vertical-slider').slick({
+            arrows: false,
+            dots: true,
+            edgeFriction: .5,
+            infinite: false,
+            vertical: true,
+            verticalSwiping: true,
+          });
+          /* สิ้นสุดแท็กเปิดปิดการใช้งานปุ่มเลื่อนหน้าจอ */
 
+          $('.vertical-slider').mousewheel(function (e) {
+            if (e.deltaY < 0) {
+              if ($(this).slick('slickCurrentSlide') == $(this).find('.slide').length - 1) {
+                return
+              }
 
+              e.preventDefault()
+              $(this).slick('slickNext')
+            } else {
+              if ($(this).slick('slickCurrentSlide') == 0) {
+                return
+              }
 
+              e.preventDefault()
+              $(this).slick('slickPrev')
+            }
+          });
+        });
+      }(jQuery));
+    </script>
 
-</body>
+  </body>
 
-</html>
+  </html>
