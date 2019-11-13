@@ -21,14 +21,14 @@ h2 {
   display: block;
   text-align: center;
 }
-/*สำหรับ Debug ตาราง*/
+/*สำหรับ Debug ตาราง
 table {
   border-collapse: collapse;
 }
-
 table, th, td {
   border: 1px solid black;
 }
+*/
 
 .horizontal-slider.slick-dotted,
 .vertical-slider.slick-dotted {
