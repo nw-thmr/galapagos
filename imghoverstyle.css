@@ -1,0 +1,29 @@
+/* ตัวยึดกรอบรูป */
+figure {
+	width: 230px;
+	height: 190px;
+	margin: 0px 0px 0px -1px;
+	overflow: hidden;
+	background: green;
+}
+/* สิ้นสุดตัวยึดกรอบรูป */
+
+
+/* Zoom In */
+/* ความไวในการซูม ลองปรับ .5s  ห้ามปรับ scale*/
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+/* สิ้นสุดความไวในการซูม*/
+
+/* ขนาดการซูม 1.0 คือปกติ */
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/* สิ้นสุดขนาดการซูม */
+
+/* Zoom In */
