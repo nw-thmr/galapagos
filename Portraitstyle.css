@@ -13,11 +13,9 @@ a {
 }
 
 .w3-container,.w3-panel {
-    display: inline-block; 
     padding:0.01em 16px; 
     background-color:white;
-    width: 196.5px;
-	height: 95px;
+    
 }
 
 

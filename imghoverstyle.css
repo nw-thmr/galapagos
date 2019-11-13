@@ -1,8 +1,7 @@
 /* ตัวยึดกรอบรูป */
 figure {
-	width: 230px;
-	height: 190px;
-	margin: 0px 0px 0px -1px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
 	overflow: hidden;
 	background: green;
 }
