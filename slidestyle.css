@@ -48,13 +48,13 @@
 }
 
 .slick-next.slick-disabled:before,.slick-prev.slick-disabled:before {
-    opacity:.25
+    opacity:.15
 }
 
 .slick-next:before,.slick-prev:before {
     font-size:20px;
     line-height:1;
-    opacity:.75;
+    opacity:.6;
     color:#fff
 }
 
