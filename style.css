@@ -22,14 +22,6 @@ h2 {
   text-align: center;
 }
 
-table {
-  border-collapse: collapse;
-}
-
-table, th, td {
-  border: 1px solid black;
-}
-
 .horizontal-slider.slick-dotted,
 .vertical-slider.slick-dotted {
   margin-bottom: 0;
