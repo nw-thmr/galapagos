@@ -84,12 +84,12 @@ table, th, td {
   background-repeat: no-repeat;
   /*background-position-x: center;*/
   background-position-y: bottom;
-  border: 6px solid #4cd2ff;
   background-color: #4cd2ff ;
 }
 .vertical-slide:nth-child(2n) {
- background: url("");
- background-color: #4cd2ff;
+  background: url("");
+  background-color: #4cd2ff;
+  border: 10px solid #4cd2ff;
 }
 .vertical-slide:nth-child(3n) {
   background: url("");
