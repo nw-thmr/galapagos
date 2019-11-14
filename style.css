@@ -94,6 +94,7 @@ table, th, td {
 .vertical-slide:nth-child(3n) {
   background: url("");
   background-color: #464646;
+  border: 10px solid #464646;
 }
 .vertical-slide:nth-child(4n) {
   background: url("");
