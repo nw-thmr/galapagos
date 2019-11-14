@@ -84,26 +84,26 @@ table, th, td {
   background-repeat: no-repeat;
   /*background-position-x: center;*/
   background-position-y: bottom;
-  background-color: #4cd2ff ;
-}
+  background-color: #464646 ;
+}/*4cd2ff*/
 .vertical-slide:nth-child(2n) {
   background: url("");
-  background-color: #4cd2ff;
-  border: 10px solid #4cd2ff;
+  background-color: #464646;
+  border: 10px solid #464646;
 }
 .vertical-slide:nth-child(3n) {
   background: url("");
-  background-color: #4cd2ff;
+  background-color: #464646;
 }
 .vertical-slide:nth-child(4n) {
   background: url("");
-  background-color: #4cd2ff;
+  background-color: #464646;
 }
 
 .vertical-slide:nth-child(5n) {
   position: relative;
   background: url("");
-  background-color: #4cd2ff;
+  background-color: #464646;
 }
 
 .slide-content {
