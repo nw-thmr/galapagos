@@ -79,7 +79,7 @@
 /* รูปลูกศร */
 
 .slick-dots {
-    bottom:-25px;
+    top: 20px;
     width:100%;
     margin:0;
     list-style:none;
