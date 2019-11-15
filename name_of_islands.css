@@ -1,16 +1,16 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: greenyellow;
-  color: black;
+  background-color: rgb(95, 99, 90);
+  color: white;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 5px 1cm;
   position: absolute;
   z-index: 1;
   bottom: 150%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -100px;
 }
 
 .tooltip .tooltiptext::after {
@@ -21,47 +21,51 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: black transparent transparent transparent;
+  border-color: rgb(95, 99, 90) transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
+a {
+  text-decoration: none;
+}
 
 .isbella {
   position: absolute;
   top: 77%;
   left: 25%;
-  font-size: 30px;
+  font-size: 20px;
+  text-decoration-line: none;
 }
 
 .fernandina {
   position: absolute;
-  top: 53%;
-  left: 7%;
-  font-size: 25px;
+  top: 55%;
+  left: 12%;
+  font-size: 20px;
 }
 
 .floreana {
   position: absolute;
   top: 89%;
-  left: 50%;
-  font-size: 25px;
+  left: 48%;
+  font-size: 20px;
 }
 
 .espanola {
   position: absolute;
-  top: 87%;
-  left: 78%;
-  font-size: 25px;
+  top: 92%;
+  left: 72%;
+  font-size: 15px;
 }
 
 .santacruz {
   position: absolute;
   top: 65%;
   left: 49%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .wolf {
@@ -73,56 +77,56 @@
 
 .marchena{
   position: absolute;
-  top: 18%;
-  left: 52%;
-  font-size: 18px;
+  top: 16%;
+  left: 47%;
+  font-size: 20px;
 }
 
 .genovesa{
   position: absolute;
-  top: 23%;
+  top: 24%;
   left: 63%;
   font-size: 18px;
 }
 
 .pinta{
   position: absolute;
-  top: 6%;
-  left: 40%;
+  top: 5%;
+  left: 39%;
   font-size: 18px;
 }
 
 .santiago{
   position: absolute;
   top: 36%;
-  left: 40%;
-  font-size: 25px;
+  left: 38%;
+  font-size: 20px;
 }
 
 .rabida{
   position: absolute;
   top: 51.5%;
   left: 42%;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .pinzon{
   position: absolute;
   top: 60%;
-  left: 43.5%;
-  font-size: 15px;
+  left: 42%;
+  font-size: 14px;
 }
 
 .bartholomew{
   position: absolute;
-  top: 43.5%;
-  left: 49%;
+  top: 43%;
+  left: 49.5%;
   font-size: 15px;
 }
 
 .northseymour{
   position: absolute;
-  top: 48%;
+  top: 47.5%;
   left: 56%;
   font-size: 15px;
 }
@@ -131,19 +135,19 @@
   position: absolute;
   top: 68%;
   left: 63%;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .sancristobal{
   position: absolute;
-  top: 70%;
-  left: 85%;
-  font-size: 22px;
+  top: 73%;
+  left: 79%;
+  font-size: 20px;
 }
 
 .darwin{
   position: absolute;
   top: 3%;
   left: 7%;
-  font-size: 22px;
+  font-size: 20px;
 }
